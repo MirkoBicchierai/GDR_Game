@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(RPGgame)
+project(GDR_Game)
 
 set(CMAKE_CXX_STANDARD 23)
 
@@ -20,5 +20,5 @@ endif()
 
 set(SOURCE_FILES main.cpp)
 include_directories(${SFML_INCLUDE_DIR})
-add_executable(RPGgame main.cpp)
-target_link_libraries (RPGgame sfml-graphics sfml-window sfml-system sfml-audio)
+add_executable(GDR_Game main.cpp)
+target_link_libraries (GDR_Game sfml-graphics sfml-window sfml-system sfml-audio)
