@@ -20,5 +20,5 @@ endif()
 
 set(SOURCE_FILES main.cpp)
 include_directories(${SFML_INCLUDE_DIR})
-add_executable(GDR_Game main.cpp)
+add_executable(GDR_Game main.cpp config.cpp Player.cpp Player.h)
 target_link_libraries (GDR_Game sfml-graphics sfml-window sfml-system sfml-audio)
